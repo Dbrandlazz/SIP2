@@ -1,113 +1,159 @@
+'use client'
+import React, { useState } from 'react';
 import Image from 'next/image'
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+// ... (Insert the translated TypeScript logic here)
+type Conditions = {
+  [key: string]: number;
 }
+
+type ConditionalProbabilities = {
+  [condition: string]: {
+      [symptom: string]: number;
+  };
+}
+
+const priors: Conditions = {
+  "Depresi": 0.1,
+  "Kecemasan": 0.1,
+  "OCD": 0.05,
+  "Gangguan Bipolar": 0.05,
+  "Skizofrenia": 0.02
+};
+
+const conditionalProbabilities: ConditionalProbabilities = {
+  "Depresi": {
+      "Perasaan sedih atau putus asa yang berkepanjangan?": 0.8,
+      "Kehilangan minat dalam aktivitas yang sebelumnya disukai?": 0.7,
+      "Perubahan nafsu makan atau berat badan?": 0.6,
+      "Kesulitan tidur atau tidur berlebihan?": 0.6,
+      "Kelelahan atau kurangnya energi?": 0.7
+  },
+  "Kecemasan": {
+      "Kecemasan berlebihan tentang situasi sehari-hari?": 0.7,
+      "Detak jantung cepat?": 0.6,
+      "Gemeteran atau menggigil?": 0.6,
+      "Merasa gelisah atau tegang?": 0.7,
+      "Kesulitan berkonsentrasi?": 0.5
+  },
+  "OCD": {
+      "Pikiran atau dorongan berulang yang tidak diinginkan?": 0.9,
+      "Perlu melakukan rutinitas tertentu berulang kali?": 0.8,
+      "Menghabiskan setidaknya 1 jam sehari pada pikiran atau perilaku ini?": 0.7,
+      "Pikiran atau kebiasaan menyebabkan penderitaan yang signifikan?": 0.6,
+      "Perilaku bukan karena obat atau kondisi medis lainnya?": 0.5
+  },
+  "Gangguan Bipolar": {
+      "Periode suasana hati atau iritabilitas yang meningkat?": 0.8,
+      "Peningkatan aktivitas atau level energi?": 0.7,
+      "Merasa luar biasa 'bahagia' atau optimis?": 0.6,
+      "Kebutuhan tidur yang berkurang?": 0.6,
+      "Perilaku impulsif atau ceroboh?": 0.7
+  },
+  "Skizofrenia": {
+      "Halusinasi (melihat atau mendengar hal yang tidak ada)?": 0.9,
+      "Delusi (keyakinan kuat yang tidak didasarkan pada kenyataan)?": 0.8,
+      "Pikiran atau ucapan yang tidak terorganisir?": 0.7,
+      "Gejala negatif (emosi atau motivasi yang berkurang)?": 0.6,
+      "Kemampuan kognitif yang terganggu (memori, perhatian)?": 0.5
+  }
+};
+
+
+const overallSymptomProbabilities: { [symptom: string]: number } = {};
+for (const condition in conditionalProbabilities) {
+  for (const symptom in conditionalProbabilities[condition]) {
+      overallSymptomProbabilities[symptom] = 0.1;
+  }
+}
+
+function computePosterior(answers: boolean[]): Conditions {
+  const posteriors: Conditions = { ...priors };
+
+  let index = 0;
+  for (const symptom in overallSymptomProbabilities) {
+      if (answers[index]) {
+          for (const condition in conditionalProbabilities) {
+              const likelihood = conditionalProbabilities[condition][symptom] || 0;
+              const evidence = overallSymptomProbabilities[symptom];
+              posteriors[condition] *= likelihood / evidence;
+          }
+      }
+      index++;
+  }
+
+  const total = Object.values(posteriors).reduce((a, b) => a + b, 0);
+  for (const condition in posteriors) {
+      posteriors[condition] /= total;
+  }
+
+  return posteriors;
+}
+
+
+
+const Diagnosis: React.FC = () => {
+    const [results, setResults] = useState<Conditions | null>(null);
+    
+    const questions = Object.keys(overallSymptomProbabilities);
+
+    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
+        const form = event.currentTarget;
+        const answers = questions.map(q => form[q].checked);
+        const computedResults = computePosterior(answers);
+        setResults(computedResults);
+    };
+
+    return (
+<div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+      
+    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+   
+            <div className="md:flex-shrink-0">
+            <Image
+                src="/images/up.jpg"
+                width={800}
+                height={500}
+                alt="Mental"
+              />
+            
+                <div className='mt-8 text-center text-2xl text-gray-900 font-bold'>Sistem Pakar Gangguan Kesehatan Mental</div>
+                <div className='mt-8 text-center text-xl text-gray-900 font-bold'>Jawablah Pertanyaan Dibawah ini, lalu tekan diagnosa </div>
+           
+         
+            <div className="p-8 text-gray-900">
+                      <form onSubmit={handleSubmit} className="space-y-4">
+                          {questions.map((q, index) => (
+                              <div key={index} className="flex items-center space-x-2">
+                                  <input type="checkbox" id={q} name={q} className="form-checkbox h-5 w-5" />
+                                  <label htmlFor={q} className="text-lg">{q}</label>
+                              </div>
+                          ))}
+                          <button type="submit" className="mt-4 px-4 py-2 bg-gradient-to-r from-teal-400 to-blue-500 text-white rounded hover:from-teal-500 hover:to-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Diagnosa</button>
+                      </form>
+
+                      {results && (
+                          <div className="mt-8 bg-gray-100 p-4 rounded">
+                              <h2 className="text-xl font-bold mb-4">Results:</h2>
+                              {Object.values(results).some(value => isNaN(value)) ? (
+                                          <div className="text-red-600">Tidak dapat mendiagnosis berdasarkan gejala yang diberikan. Harap berikan informasi lebih lanjut atau konsultasikan dengan profesional.</div>
+                                          ) : Math.max(...Object.values(results)) < 0.1 ? (
+                                              <div className="text-red-600">Tidak ada penyakit.</div>
+                                          ) : (
+                                    Object.entries(results).map(([condition, probability]) => (
+                                        <div key={condition} className="mb-2">
+                                            <span className="font-medium">{condition}:</span> {probability.toFixed(2)}
+                                        </div>
+                                    ))
+                                )}
+                          </div>
+                      )}
+                  </div>
+              </div>
+          </div>
+      </div>
+  );
+}
+
+export default Diagnosis;
