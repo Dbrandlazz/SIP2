@@ -32,3 +32,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+# 📖 Dokumentasi: Sistem Pakar Gangguan Kesehatan Mental
+## 🌟 Overview
+Kode ini adalah komponen React yang bertujuan untuk mendapatkan input gejala dari pengguna, kemudian mengevaluasi gejala tersebut berdasarkan aturan yang didefinisikan dalam file rules.json, dan menampilkan hasilnya dalam bentuk diagnosis.
+
+
+## 🔍 Cara Penggunaan
+- 🚀 Pengguna akan melihat judul "Sistem Pakar Gangguan Kesehatan Mental" dan instruksi untuk menjawab pertanyaan yang diberikan.
+
+- ✅ Pengguna dapat memilih satu atau lebih gejala yang mereka alami dengan mencentang kotak di samping setiap gejala.
+
+- 🖱️ Setelah memilih gejala, pengguna dapat mengeklik tombol "Diagnosa" untuk mendapatkan hasil diagnosa berdasarkan gejala yang dipilih.
+
+- 📊 Hasil diagnosa akan ditampilkan di bawah form dengan kondisi dan jumlah gejala yang cocok.
+
+### Colaborator
+- M. Ilhaam Ghiffari (2108107010005)
+- 4.0 (slave)
+

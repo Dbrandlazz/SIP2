@@ -3,13 +3,36 @@ import React, { useState } from "react";
 import Image from "next/image";
 import data from "../asset/rules.json"
 
+/**
+ * Represents the results based on the rules evaluation.
+ * @typedef {Object} RuleBasedResults
+ * @property {string} condition - The condition's name.
+ * @property {number} value - The number of symptoms matching the condition.
+ */
+
 type RuleBasedResults = {
   [condition: string]: number;
 };
 
+/**
+ * Represents the rules for symptom conditions.
+ * @typedef {Object} SYMPTOM_CONDITION_RULES
+ * @property {string} key - The condition's name.
+ * @property {string[]} value - The list of symptoms associated with the condition.
+ */
+
+
 type SYMPTOM_CONDITION_RULES = Record<string, string[]>;
 
 const SYMPTOM_CONDITION_RULES: SYMPTOM_CONDITION_RULES = data;
+
+/**
+ * Evaluate user's answers based on the defined rules.
+ * 
+ * @function
+ * @param {string[]} answers - The list of symptoms selected by the user.
+ * @returns {RuleBasedResults} - The results showing how many symptoms match each condition.
+ */
 
 const evaluateRules = (answers: string[]): RuleBasedResults => {
   const rulesResults: RuleBasedResults = {};
@@ -25,6 +48,13 @@ const evaluateRules = (answers: string[]): RuleBasedResults => {
 
   return rulesResults;
 };
+
+
+/**
+ * Diagnosis Component.
+ * 
+ * @returns {React.Element} The rendered Diagnosis component.
+ */
 
 const Diagnosis: React.FC = () => {
   const [results, setResults] = useState<RuleBasedResults | null>(null);
