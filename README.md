@@ -1,3 +1,24 @@
+# 📖 Dokumentasi: Sistem Pakar Gangguan Kesehatan Mental
+## 🌟 Overview
+Kode ini adalah komponen React yang bertujuan untuk mendapatkan input gejala dari pengguna, kemudian mengevaluasi gejala tersebut berdasarkan aturan yang didefinisikan dalam file rules.json, dan menampilkan hasilnya dalam bentuk diagnosis.
+
+
+## 🔍 Cara Penggunaan
+- 🚀 Pengguna akan melihat judul "Sistem Pakar Gangguan Kesehatan Mental" dan instruksi untuk menjawab pertanyaan yang diberikan.
+
+- ✅ Pengguna dapat memilih satu atau lebih gejala yang mereka alami dengan mencentang kotak di samping setiap gejala.
+
+- 🖱️ Setelah memilih gejala, pengguna dapat mengeklik tombol "Diagnosa" untuk mendapatkan hasil diagnosa berdasarkan gejala yang dipilih.
+
+- 📊 Hasil diagnosa akan ditampilkan di bawah form dengan kondisi dan jumlah gejala yang cocok.
+
+### Colaborator
+- M. Ilhaam Ghiffari (2108107010005)
+- 4.0 (slave)
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -36,21 +57,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-# 📖 Dokumentasi: Sistem Pakar Gangguan Kesehatan Mental
-## 🌟 Overview
-Kode ini adalah komponen React yang bertujuan untuk mendapatkan input gejala dari pengguna, kemudian mengevaluasi gejala tersebut berdasarkan aturan yang didefinisikan dalam file rules.json, dan menampilkan hasilnya dalam bentuk diagnosis.
-
-
-## 🔍 Cara Penggunaan
-- 🚀 Pengguna akan melihat judul "Sistem Pakar Gangguan Kesehatan Mental" dan instruksi untuk menjawab pertanyaan yang diberikan.
-
-- ✅ Pengguna dapat memilih satu atau lebih gejala yang mereka alami dengan mencentang kotak di samping setiap gejala.
-
-- 🖱️ Setelah memilih gejala, pengguna dapat mengeklik tombol "Diagnosa" untuk mendapatkan hasil diagnosa berdasarkan gejala yang dipilih.
-
-- 📊 Hasil diagnosa akan ditampilkan di bawah form dengan kondisi dan jumlah gejala yang cocok.
-
-### Colaborator
-- M. Ilhaam Ghiffari (2108107010005)
-- 4.0 (slave)
 
