@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import data from "../asset/rules.json"
 
 type RuleBasedResults = {
   [condition: string]: number;
@@ -8,71 +9,7 @@ type RuleBasedResults = {
 
 type SYMPTOM_CONDITION_RULES = Record<string, string[]>;
 
-const SYMPTOM_CONDITION_RULES: SYMPTOM_CONDITION_RULES = {
-  Depresi: [
-    "Perasaan sedih atau putus asa yang berkepanjangan?",
-    "Kehilangan minat dalam aktivitas yang sebelumnya disukai?",
-    "Perubahan nafsu makan atau berat badan?",
-    "Kesulitan tidur atau tidur berlebihan?",
-    "Kelelahan atau kurangnya energi?",
-  ],
-  Kecemasan: [
-    "Kecemasan berlebihan tentang situasi sehari-hari?",
-    "Detak jantung cepat?",
-    "Gemeteran atau menggigil?",
-    "Merasa gelisah atau tegang?",
-    "Kesulitan berkonsentrasi?",
-  ],
-  OCD: [
-    "Pikiran atau dorongan berulang yang tidak diinginkan?",
-    "Perlu melakukan rutinitas tertentu berulang kali?",
-    "Menghabiskan setidaknya 1 jam sehari pada pikiran atau perilaku ini?",
-    "Pikiran atau kebiasaan menyebabkan penderitaan yang signifikan?",
-    "Perilaku bukan karena obat atau kondisi medis lainnya?",
-  ],
-  "Gangguan Bipolar": [
-    "Periode suasana hati atau iritabilitas yang meningkat?",
-    "Peningkatan aktivitas atau level energi?",
-    "Merasa luar biasa 'bahagia' atau optimis?",
-    "Kebutuhan tidur yang berkurang?",
-    "Perilaku impulsif atau ceroboh?",
-  ],
-  Skizofrenia: [
-    "Halusinasi (melihat atau mendengar hal yang tidak ada)?",
-    "Delusi (keyakinan kuat yang tidak didasarkan pada kenyataan)?",
-    "Pikiran atau ucapan yang tidak terorganisir?",
-    "Gejala negatif (emosi atau motivasi yang berkurang)?",
-    "Kemampuan kognitif yang terganggu (memori, perhatian)?",
-  ],
-  "PTSD (Post-Traumatic Stress Disorder)": [
-    "Mengalami kilas balik atau mimpi buruk tentang trauma?",
-    "Menghindari tempat, orang, atau aktivitas yang mengingatkan pada trauma?",
-    "Menjadi mudah terkejut atau kaget?",
-    "Perasaan kebingungan atau kesulitan konsentrasi?",
-    "Perasaan bersalah atau menyalahkan diri sendiri tentang trauma?",
-  ],
-  "Gangguan Kepribadian Borderline": [
-    "Perubahan suasana hati yang cepat?",
-    "Kesulitan dalam hubungan interpersonal?",
-    "Ketakutan akan penolakan atau ditinggalkan?",
-    "Tindakan impulsif dan berisiko?",
-    "Perasaan kosong atau seolah-olah Anda tidak ada?",
-  ],
-  "Gangguan Pemakanan": [
-    "Ketakutan berlebihan akan kenaikan berat badan?",
-    "Menghindari makan di depan umum?",
-    "Perubahan drastis dalam berat badan?",
-    "Ketidakpuasan dengan bentuk tubuh?",
-    "Penggunaan obat pelangsing tanpa resep?",
-  ],
-  "ADHD (Attention-Deficit/Hyperactivity Disorder)": [
-    "Kesulitan dalam mempertahankan perhatian pada tugas atau aktivitas?",
-    "Sering lupa dengan tugas sehari-hari?",
-    "Sering berbicara berlebihan?",
-    "Sulit untuk duduk diam?",
-    "Sering menginterupsi atau menyela orang lain?",
-  ],
-};
+const SYMPTOM_CONDITION_RULES: SYMPTOM_CONDITION_RULES = data;
 
 const evaluateRules = (answers: string[]): RuleBasedResults => {
   const rulesResults: RuleBasedResults = {};
@@ -145,7 +82,7 @@ const Diagnosis: React.FC = () => {
               <h2 className="text-xl font-bold mb-4">Hasil Diagnosa:</h2>
               {Object.entries(results)
                 .filter(([_, value]) => value > 0)
-                .sort(([, a], [, b]) => b - a) // Urutkan kondisi berdasarkan jumlah gejala yang cocok (descending)
+                .sort(([, a], [, b]) => b - a) 
                 .map(([condition, symptomCount]) => (
                   <div key={condition} className="mb-2">
                     <span className="font-medium">
