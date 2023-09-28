@@ -14,6 +14,7 @@ Kode ini adalah komponen React yang bertujuan untuk mendapatkan input gejala dar
 
 ### Colaborator
 - M. Ilhaam Ghiffari (2108107010005)
+- Ardian
 - 4.0 (slave)
 
 
