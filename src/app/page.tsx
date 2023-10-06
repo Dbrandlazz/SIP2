@@ -43,7 +43,7 @@ const Diagnosis: React.FC = () => {
              Kesehatan Mental
           </p> 
         </div>
-      <div className="max-w-md mx-auto bg-[#1D3C45] rounded-4xl  md:max-w-2xl z-50">
+      <div className="max-w-md mx-auto bg-[#1D3C45] rounded-3xl  md:max-w-2xl z-50">
         <div className="mt-8 p-4 text-start text-3xl text-white">
           Pilihlah diagnosa yang anda rasakan
         </div>
@@ -57,7 +57,7 @@ const Diagnosis: React.FC = () => {
                   name={symptom}
                   className="form-checkbox text-teal-500 h-5 w-5"
                 />
-                <label htmlFor={symptom} className="text-lg">
+                <label htmlFor={symptom} className="text-xl">
                   {symptom}
                 </label>
               </div>
