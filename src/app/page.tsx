@@ -43,8 +43,8 @@ const Diagnosis: React.FC = () => {
              Kesehatan Mental
           </p> 
         </div>
-      <div className="max-w-md mx-auto bg-[#1D3C45] rounded-xl  md:max-w-2xl z-50">
-        <div className="mt-8 p-4 text-start text-xl text-white">
+      <div className="max-w-md mx-auto bg-[#1D3C45] rounded-4xl  md:max-w-2xl z-50">
+        <div className="mt-8 p-4 text-start text-3xl text-white">
           Pilihlah diagnosa yang anda rasakan
         </div>
         <div className="p-8 text-white">
