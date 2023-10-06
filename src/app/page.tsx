@@ -35,7 +35,7 @@ const Diagnosis: React.FC = () => {
 
   return (
     <div className=" py-12 px-4 sm:px-6 lg:px-8">
-      <div className="mt-8 text-center text-7xl text-white md:text-6xl">
+      <div className="mt-8 text-center text-7xl text-white ">
           <p>
             Sistem Pakar Gangguan 
           </p>
