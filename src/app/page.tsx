@@ -44,7 +44,7 @@ const Diagnosis: React.FC = () => {
           </p> 
         </div>
       <div className="max-w-md mx-auto bg-[#1D3C45] rounded-3xl  md:max-w-2xl z-50">
-        <div className="mt-8 p-4 text-start text-3xl text-white relative top-4 left-6">
+        <div className="mt-8 p-4 text-center text-2xl text-white ">
           Pilihlah diagnosa yang anda rasakan
         </div>
         <div className="p-8 text-white">
