@@ -6,7 +6,7 @@ import {
   SYMPTOM_CONDITION_RULES,
   evaluateRules
 } from "../lib/rules/evaluate"
-
+import FloatingSVGs from "./component/FloatingSVG";
 
 /**
  * Diagnosis Component.
@@ -34,16 +34,20 @@ const Diagnosis: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-        <Image src="/images/up.jpg" width={800} height={500} alt="Mental" />
-        <div className="mt-8 text-center text-2xl text-gray-900 font-bold">
-          Sistem Pakar Gangguan Kesehatan Mental
+    <div className=" py-12 px-4 sm:px-6 lg:px-8">
+      <div className="mt-8 text-center text-7xl text-white">
+          <p>
+            Sistem Pakar Gangguan 
+          </p>
+          <p>
+             Kesehatan Mental
+          </p> 
         </div>
-        <div className="mt-8 text-center text-xl text-gray-900 font-bold">
-          Jawablah Pertanyaan Dibawah ini, lalu tekan diagnosa
+      <div className="max-w-md mx-auto bg-[#1D3C45] rounded-xl  md:max-w-2xl z-50">
+        <div className="mt-8 p-4 text-start text-xl text-white">
+          Pilihlah diagnosa yang anda rasakan
         </div>
-        <div className="p-8 text-gray-900">
+        <div className="p-8 text-white">
           <form onSubmit={handleSubmit} className="space-y-4">
             {symptoms.map((symptom, index) => (
               <div key={index} className="flex items-center space-x-2">
@@ -51,7 +55,7 @@ const Diagnosis: React.FC = () => {
                   type="checkbox"
                   id={symptom}
                   name={symptom}
-                  className="form-checkbox h-5 w-5"
+                  className="form-checkbox text-teal-500 h-5 w-5"
                 />
                 <label htmlFor={symptom} className="text-lg">
                   {symptom}
@@ -60,13 +64,13 @@ const Diagnosis: React.FC = () => {
             ))}
             <button
               type="submit"
-              className="mt-4 px-4 py-2 bg-gradient-to-r from-teal-400 to-blue-500 text-white rounded hover:from-teal-500 hover:to-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              className="mt-4 px-4 py-2 bg-gradient-to-r from-emerald-500 to-teal-900 text-white rounded hover:from-emerald-500 hover:to-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400"
             >
               Diagnosa
             </button>
           </form>
           {results && (
-            <div className="mt-8 bg-gray-100 p-4 rounded">
+            <div className="mt-8 border border-white p-4 rounded-lg">
               <h2 className="text-xl font-bold mb-4">Hasil Diagnosa:</h2>
               {Object.entries(results)
                 .filter(([_, value]) => value > 0)
@@ -82,6 +86,8 @@ const Diagnosis: React.FC = () => {
           )}
         </div>
       </div>
+      <FloatingSVGs/>
+
     </div>
   );
 };
