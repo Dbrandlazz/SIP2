@@ -1,67 +1,54 @@
 {
-    "Depresi": [
-      "Perasaan sedih atau putus asa yang berkepanjangan?",
-      "Kehilangan minat dalam aktivitas yang sebelumnya disukai?",
-      "Perubahan nafsu makan atau berat badan?",
-      "Kesulitan tidur atau tidur berlebihan?",
-      "Kelelahan atau kurangnya energi?"
-    ],
-    "Kecemasan": [
-      "Kecemasan berlebih tentang situasi sehari-hari?",
-      "Detak jantung cepat?",
-      "Gemeteran atau menggigil?",
-      "Merasa gelisah atau tegang?",
-      "Kesulitan berkonsentrasi?"
-    ],
-    "OCD": [
-      "Pikiran atau dorongan berulang yang tidak diinginkan?",
-      "Perlu melakukan rutinitas tertentu berulang kali?",
-      "Menghabiskan setidaknya 1 jam sehari pada pikiran atau perilaku ini?",
-      "Pikiran atau kebiasaan menyebabkan penderitaan yang signifikan?",
-      "Perilaku bukan karena obat atau kondisi medis lainnya?"
-    ],
-    "Gangguan Bipolar": [
-      "Periode suasana hati atau iritabilitas yang meningkat?",
-      "Peningkatan aktivitas atau level energi?",
-      "Merasa luar biasa 'bahagia' atau optimis?",
-      "Kebutuhan tidur yang berkurang?",
-      "Perilaku impulsif atau ceroboh?"
-    ],
-    "Skizofrenia": [
-      "Halusinasi (melihat atau mendengar hal yang tidak ada)?",
-      "Delusi (keyakinan kuat yang tidak didasarkan pada kenyataan)?",
-      "Pikiran atau ucapan yang tidak terorganisir?",
-      "Gejala negatif (emosi atau motivasi yang berkurang)?",
-      "Kemampuan kognitif yang terganggu (memori, perhatian)?"
-    ],
-    "PTSD (Post-Traumatic Stress Disorder)": [
-      "Mengalami kilas balik atau mimpi buruk tentang trauma?",
-      "Menghindari tempat, orang, atau aktivitas yang mengingatkan pada trauma?",
-      "Menjadi mudah terkejut atau kaget?",
-      "Perasaan kebingungan atau kesulitan konsentrasi?",
-      "Perasaan bersalah atau menyalahkan diri sendiri tentang trauma?"
-    ],
-    "Gangguan Kepribadian Borderline": [
-      "Perubahan suasana hati yang cepat?",
-      "Kesulitan dalam hubungan interpersonal?",
-      "Ketakutan akan penolakan atau ditinggalkan?",
-      "Tindakan impulsif dan berisiko?",
-      "Perasaan kosong atau seolah-olah Anda tidak ada?"
-    ],
-    "Gangguan Pemakanan": [
-      "Ketakutan berlebihan akan kenaikan berat badan?",
-      "Menghindari makan di depan umum?",
-      "Perubahan drastis dalam berat badan?",
-      "Ketidakpuasan dengan bentuk tubuh?",
-      "Penggunaan obat pelangsing tanpa resep?"
-    ],
-    "ADHD (Attention-Deficit/Hyperactivity Disorder)": [
-      "Kesulitan dalam mempertahankan perhatian pada tugas atau aktivitas?",
-      "Sering lupa dengan tugas sehari-hari?",
-      "Sering berbicara berlebihan?",
-      "Sulit untuk duduk diam?",
-      "Sering menginterupsi atau menyela orang lain?"
-    ]
-  }
-
+  "Matematika": [
+    "Apakah Anda menyukai tantangan intelektual?",
+    "Apakah Anda senang memecahkan masalah?",
+    "Apakah Anda memiliki kemampuan abstraksi yang kuat?",
+    "Apakah Anda memiliki kemampuan berpikir logis dan sistematis?",
+    "Apakah Anda tertarik dengan aplikasi matematika dalam kehidupan nyata?"
+  ],
+  "Fisika": [
+    "Apakah Anda tertarik dengan alam semesta?",
+    "Apakah Anda senang mempelajari fenomena alam",
+    "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat",
+    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
+    "Apakah Anda tertarik dengan aplikasi fisika dalam teknologi?"
+  ],
+  "Kimia": [
+    "Apakah Anda tertarik dengan struktur dan sifat materi?",
+    "Apakah Anda senang mempelajari reaksi kimia",
+    "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat?",
+    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
+    "Apakah Anda tertarik dengan aplikasi kimia dalam kehidupan sehari-hari?"
+  ],
+  "Biologi": [
+    "Apakah Anda tertarik dengan makhluk hidup?",
+    "Apakah Anda senang mempelajari struktur dan fungsi makhluk hidup?",
+    "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat?",
+    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
+    "Apakah Anda tertarik dengan aplikasi biologi dalam kesehatan dan lingkungan?"
+  ],
+  "Informatika": [
+    "Apakah Anda tertarik dengan komputer dan teknologi?",
+    "Apakah Anda senang mempelajari algoritma dan pemrograman?",
+    "Apakah Anda memiliki kemampuan berpikir logis dan sistematis?",
+    "Apakah Anda memiliki kemampuan memecahkan masalah?",
+    "Apakah Anda tertarik dengan aplikasi informatika dalam berbagai bidang?"
+  ],
+  "Farmasi": [
+    "Apakah Anda tertarik dengan kesehatan dan obat-obatan?",
+    "Apakah Anda senang mempelajari komposisi dan sifat obat-obatan?",
+    "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat?",
+    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
+    "Apakah Anda tertarik dengan aplikasi farmasi dalam kesehatan masyarakat?"
+  ],
+  "Statistika": [
+    " Apakah Anda tertarik dengan data dan angka?",
+    "Apakah Anda senang mempelajari statistika dan probabilitas?",
+    "Apakah Anda memiliki kemampuan berpikir logis dan sistematis?",
+    "Apakah Anda memiliki kemampuan berpikir abstrak dan kuantitatif?",
+    "Apakah Anda tertarik dengan aplikasi statistika dalam berbagai bidang?"
+  ]
   
+}
+
+
