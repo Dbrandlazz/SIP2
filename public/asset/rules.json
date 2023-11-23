@@ -1,0 +1,54 @@
+{
+  "Matematika": [
+    "Apakah Anda menyukai tantangan intelektual?",
+    "Apakah Anda senang memecahkan masalah?",
+    "Apakah Anda memiliki kemampuan abstraksi yang kuat?",
+    "Apakah Anda memiliki kemampuan berpikir logis dan sistematis?",
+    "Apakah Anda tertarik dengan aplikasi matematika dalam kehidupan nyata?"
+  ],
+  "Fisika": [
+    "Apakah Anda tertarik dengan alam semesta?",
+    "Apakah Anda senang mempelajari fenomena alam",
+    "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat",
+    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
+    "Apakah Anda tertarik dengan aplikasi fisika dalam teknologi?"
+  ],
+  "Kimia": [
+    "Apakah Anda tertarik dengan struktur dan sifat materi?",
+    "Apakah Anda senang mempelajari reaksi kimia",
+    "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat?",
+    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
+    "Apakah Anda tertarik dengan aplikasi kimia dalam kehidupan sehari-hari?"
+  ],
+  "Biologi": [
+    "Apakah Anda tertarik dengan makhluk hidup?",
+    "Apakah Anda senang mempelajari struktur dan fungsi makhluk hidup?",
+    "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat?",
+    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
+    "Apakah Anda tertarik dengan aplikasi biologi dalam kesehatan dan lingkungan?"
+  ],
+  "Informatika": [
+    "Apakah Anda tertarik dengan komputer dan teknologi?",
+    "Apakah Anda senang mempelajari algoritma dan pemrograman?",
+    "Apakah Anda memiliki kemampuan berpikir logis dan sistematis?",
+    "Apakah Anda memiliki kemampuan memecahkan masalah?",
+    "Apakah Anda tertarik dengan aplikasi informatika dalam berbagai bidang?"
+  ],
+  "Farmasi": [
+    "Apakah Anda tertarik dengan kesehatan dan obat-obatan?",
+    "Apakah Anda senang mempelajari komposisi dan sifat obat-obatan?",
+    "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat?",
+    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
+    "Apakah Anda tertarik dengan aplikasi farmasi dalam kesehatan masyarakat?"
+  ],
+  "Statistika": [
+    " Apakah Anda tertarik dengan data dan angka?",
+    "Apakah Anda senang mempelajari statistika dan probabilitas?",
+    "Apakah Anda memiliki kemampuan berpikir logis dan sistematis?",
+    "Apakah Anda memiliki kemampuan berpikir abstrak dan kuantitatif?",
+    "Apakah Anda tertarik dengan aplikasi statistika dalam berbagai bidang?"
+  ]
+  
+}
+
+
