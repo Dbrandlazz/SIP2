@@ -1,25 +1,26 @@
 # SIP2
 Sistem Indikator Pemilihan Prodi=-a==sdaodysa7tg
 # 📖 Dokumentasi: Sistem Pakar Gangguan Kesehatan Mental
+
 ## 🌟 Overview
-Kode ini adalah komponen React yang bertujuan untuk mendapatkan input gejala dari pengguna, kemudian mengevaluasi gejala tersebut berdasarkan aturan yang didefinisikan dalam file rules.json, dan menampilkan hasilnya dalam bentuk diagnosis.
+Kode ini adalah komponen React yang bertujuan untuk mendapatkan input minat dari pengguna, kemudian mengevaluasi minat tersebut berdasarkan aturan yang didefinisikan dalam file rules.json, dan menampilkan hasilnya dalam bentuk hasil.
 
 
 ## 🔍 Cara Penggunaan
-- 🚀 Pengguna akan melihat judul "Sistem Pakar Gangguan Kesehatan Mental" dan instruksi untuk menjawab pertanyaan yang diberikan.
+- 🚀 Pengguna akan melihat judul "Sistem Pakar Indikator Pemilihan Prodi" dan instruksi untuk menjawab pertanyaan yang diberikan.
 
-- ✅ Pengguna dapat memilih satu atau lebih gejala yang mereka alami dengan mencentang kotak di samping setiap gejala.
+- ✅ Pengguna dapat memilih satu atau lebih minat yang mereka minati dengan mencentang kotak di samping setiap minat.
 
-- 🖱️ Setelah memilih gejala, pengguna dapat mengeklik tombol "Diagnosa" untuk mendapatkan hasil diagnosa berdasarkan gejala yang dipilih.
+- 🖱️ Setelah memilih minat, pengguna dapat mengeklik tombol "Hasil" untuk mendapatkan hasil jurusan rekomendasi berdasarkan minat yang dipilih.
 
-- 📊 Hasil diagnosa akan ditampilkan di bawah form dengan kondisi dan jumlah gejala yang cocok.
+- 📊 Hasil minat akan ditampilkan di bawah form dengan kondisi dan jumlah minat yang cocok.
 
 ### Colaborator
-- M. Ilhaam Ghiffari (2108107010005)
-- Ardian
-- Rahmat Azrima
-- Nabila Aprilia
-- Mahathir
+- Aulia Muzhaffar (2108107010033)
+- Muhammad Kemal Fasya (2108107010052)
+- Muhammad Ilzam(2208107010087)
+- Rizka Nawalul Azka(2108107010085)
+
 
 
 
