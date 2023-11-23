@@ -1,5 +1,5 @@
 # SIP2
-Sistem Indikator Pemilihan Prodi
+Sistem Indikator Pemilihan Prodi=-a==sdaodysa7tg
 # 📖 Dokumentasi: Sistem Pakar Gangguan Kesehatan Mental
 ## 🌟 Overview
 Kode ini adalah komponen React yang bertujuan untuk mendapatkan input gejala dari pengguna, kemudian mengevaluasi gejala tersebut berdasarkan aturan yang didefinisikan dalam file rules.json, dan menampilkan hasilnya dalam bentuk diagnosis.
