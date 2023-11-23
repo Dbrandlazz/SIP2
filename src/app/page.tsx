@@ -37,15 +37,15 @@ const Diagnosis: React.FC = () => {
     <div className=" py-12 px-4 mx-auto">
       <div className="mt-8 text-center text-7xl text-white ">
           <p>
-            Sistem Pakar Gangguan 
+            Sistem Pakar Indikator Pemilihan Prodi
           </p>
           <p>
-             Kesehatan Mental
+             Fmipa USk
           </p> 
         </div>
       <div className="max-w-md mx-auto bg-[#1D3C45] rounded-3xl  md:max-w-2xl z-50">
         <div className="mt-8 p-4 text-center text-2xl text-white ">
-          Pilihlah diagnosa yang anda rasakan
+          Pilihlah minat yang anda minati
         </div>
         <div className="p-8 text-white">
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -66,19 +66,19 @@ const Diagnosis: React.FC = () => {
               type="submit"
               className="mt-4 px-4 py-2 bg-gradient-to-r from-emerald-500 to-teal-900 text-white rounded hover:from-emerald-500 hover:to-teal-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-400"
             >
-              Diagnosa
+              Hasil
             </button>
           </form>
           {results && (
             <div className="mt-8 border border-white p-4 rounded-lg">
-              <h2 className="text-xl font-bold mb-4">Hasil Diagnosa:</h2>
+              <h2 className="text-xl font-bold mb-4">Hasil Minat:</h2>
               {Object.entries(results)
                 .filter(([_, value]) => value > 0)
                 .sort(([, a], [, b]) => b - a) 
                 .map(([condition, symptomCount]) => (
                   <div key={condition} className="mb-2">
                     <span className="font-medium">
-                      {condition} ({symptomCount} gejala)
+                      {condition} ({symptomCount} minat)
                     </span>
                   </div>
                 ))}
