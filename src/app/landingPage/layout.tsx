@@ -1,12 +1,12 @@
-import './globals.css'
+import '../../app/globals.css'
 import type { Metadata } from 'next'
 import { Red_Rose } from 'next/font/google'
-
+import Script from 'next/script'
 const inter = Red_Rose({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'SIP2',
-  description: 'Cek Jurusan mu',
+  description: 'Landing Page',
 }
 
 export default function RootLayout({
@@ -20,6 +20,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
       {children}
+      
       </body>
     </html>
   )
