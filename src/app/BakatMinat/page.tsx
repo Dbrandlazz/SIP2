@@ -87,7 +87,7 @@ const Diagnosis: React.FC = () => {
     <div className=" py-12 px-4 mx-auto">
       <div className="mt-8 text-center text-7xl text-white ">
           <p>
-            Sistem Indikator Pemilihan Prdi
+            Sistem Indikator Pemilihan Prodi
           </p>
           <p>
              Fmipa USK
@@ -128,7 +128,7 @@ const Diagnosis: React.FC = () => {
                 .map(([condition, symptomCount]) => (
                   <div key={condition} className="mb-2">
                     <span className="font-medium">
-                      {condition} ({symptomCount} gejala)
+                      {condition} ({symptomCount} minat)
                     </span>
                   </div>
                 ))}

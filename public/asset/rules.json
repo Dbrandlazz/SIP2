@@ -2,51 +2,51 @@
   "Matematika": [
     "Apakah Anda menyukai tantangan intelektual?",
     "Apakah Anda senang memecahkan masalah?",
-    "Apakah Anda memiliki kemampuan abstraksi yang kuat?",
-    "Apakah Anda memiliki kemampuan berpikir logis dan sistematis?",
-    "Apakah Anda tertarik dengan aplikasi matematika dalam kehidupan nyata?"
+    "Apakah Anda memiliki riwayat akademis yang kuat dalam kalkulus dan aljabar?",
+    "Apakah Anda senang berpikir secara logis dan menyukai pola-pola angka?",
+    "Apakah Anda tertarik dengan prospek karir di bidang keuangan, riset operasional, atau pengembangan perangkat luna?"
   ],
   "Fisika": [
-    "Apakah Anda tertarik dengan alam semesta?",
-    "Apakah Anda senang mempelajari fenomena alam",
-    "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat",
-    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
-    "Apakah Anda tertarik dengan aplikasi fisika dalam teknologi?"
+    "Apakah Anda penasaran dengan alam semesta dan gejala alam?",
+    "Apakah Anda suka dengan prinsip dasar gerakan benda dan gaya serta konsep-konsep seputar listrik dan magnet?",
+    "Apakah Anda merasa nyaman dan tertarik untuk bermain dengan rumus-rumus fisika dalam pemecahan masalah?",
+    "Apakah Anda memiliki kemampuan berpikir tentang ide-ide yang tidak terlalu nyata dan menyusun gagasan secara teratur?",
+    "Apakah Anda ingin mengejar penelitian dalam bidang astrofisika, fisika partikel, atau teknologi terkait fisika?"
   ],
   "Kimia": [
     "Apakah Anda tertarik dengan struktur dan sifat materi?",
-    "Apakah Anda senang mempelajari reaksi kimia",
+    "Apakah Anda senang memahami reaksi kimia dan bagaimana bahan-bahan bereaksi satu sama lain?",
     "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat?",
-    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
-    "Apakah Anda tertarik dengan aplikasi kimia dalam kehidupan sehari-hari?"
+    "Apakah Anda ingin bekerja dalam pengembangan obat-obatan, penelitian kimia, atau pengujian kualitas produk kimia?",
+    "Apakah Anda ingin lebih mendalami reaksi kimia yang kompleks?"
   ],
   "Biologi": [
-    "Apakah Anda tertarik dengan makhluk hidup?",
+    "Apakah Anda memiliki minat terhadap makhluk hidup dan bagaimana mereka berfungsi?",
     "Apakah Anda senang mempelajari struktur dan fungsi makhluk hidup?",
-    "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat?",
-    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
-    "Apakah Anda tertarik dengan aplikasi biologi dalam kesehatan dan lingkungan?"
+    "Apakah Anda suka membaca dan memiliki minat yang kuat dalam memahami informasi terkait biologi?",
+    "Apakah Anda peduli dengan pelestarian alam dan keseimbangan ekosistem?",
+    "Apakah Anda tertarik dengan prospek karir di bidang penelitian medis, konservasi lingkungan, atau industri biofarmasi?"
   ],
   "Informatika": [
     "Apakah Anda tertarik dengan komputer dan teknologi?",
-    "Apakah Anda senang mempelajari algoritma dan pemrograman?",
-    "Apakah Anda memiliki kemampuan berpikir logis dan sistematis?",
-    "Apakah Anda memiliki kemampuan memecahkan masalah?",
-    "Apakah Anda tertarik dengan aplikasi informatika dalam berbagai bidang?"
+    "Apakah Anda senang memecahkan masalah dan menyusun algoritma?",
+    "Apakah Anda memiliki ketertarikan khusus pada pemrograman?",
+    "Apakah Anda merasa nyaman berpikir logis dan sistematis?",
+    "Apakah Anda tertarik dengan prospek karir di pengembangan perangkat lunak, keamanan informasi, atau kecerdasan buatan?"
   ],
   "Farmasi": [
-    "Apakah Anda tertarik dengan kesehatan dan obat-obatan?",
+    "Apakah Anda tertarik dengan dunia kesehatan dan pengembangan obat-obatan?",
     "Apakah Anda senang mempelajari komposisi dan sifat obat-obatan?",
-    "Apakah Anda memiliki kemampuan berpikir kuantitatif yang kuat?",
-    "Apakah Anda memiliki kemampuan berpikir abstrak dan sistematis?",
-    "Apakah Anda tertarik dengan aplikasi farmasi dalam kesehatan masyarakat?"
+    "Apakah Anda ingin terlibat dalam riset obat-obatan yang disesuaikan dengan individu?",
+    "Apakah Anda peduli untuk membantu meningkatkan kesehatan masyarakat?",
+    "Apakah Anda tertarik dengan prospek karir di industri farmasi, penelitian klinis, atau pengembangan obat-obatan?"
   ],
   "Statistika": [
-    " Apakah Anda tertarik dengan data dan angka?",
+    "Apakah Anda tertarik dengan data dan angka?",
     "Apakah Anda senang mempelajari statistika dan probabilitas?",
-    "Apakah Anda memiliki kemampuan berpikir logis dan sistematis?",
-    "Apakah Anda memiliki kemampuan berpikir abstrak dan kuantitatif?",
-    "Apakah Anda tertarik dengan aplikasi statistika dalam berbagai bidang?"
+    "Apakah Anda ingin terlibat dalam pengembangan model prediktif untuk analisis risiko?",
+    "Apakah Anda tertarik untuk menggali wawasan dari data menggunakan teknik statistika?",
+    "Apakah Anda tertarik dengan prospek karir di analisis data, keuangan, atau penelitian pasar?"
   ]
   
 }
