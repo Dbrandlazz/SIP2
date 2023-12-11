@@ -1,5 +1,5 @@
 # SIP2
-Sistem Indikator Pemilihan Prodi=-a==sdaodysa7tg
+Sistem Indikator Pemilihan Prodi
 # 📖 Dokumentasi: Sistem Indikator Pemilihan Prodi
 
 ## 🌟 Overview
