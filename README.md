@@ -1,6 +1,6 @@
 # SIP2
-Sistem Indikator Pemilihan Prodi=-a==sdaodysa7tg
-# 📖 Dokumentasi: Sistem Pakar Gangguan Kesehatan Mental
+Sistem Indikator Pemilihan Prodi
+# 📖 Dokumentasi: Sistem Indikator Pemilihan Prodi
 
 ## 🌟 Overview
 Kode ini adalah komponen React yang bertujuan untuk mendapatkan input minat dari pengguna, kemudian mengevaluasi minat tersebut berdasarkan aturan yang didefinisikan dalam file rules.json, dan menampilkan hasilnya dalam bentuk hasil.
